@@ -12,8 +12,8 @@ pipeline {
         stage("Build") {
             steps {
 			echo 'this is minimal pipeline.'
-                //sh "mvn -version"
-                //sh "mvn clean install"
+                sh "mvn -version"
+                sh "mvn clean install"
             }
         }
     }
