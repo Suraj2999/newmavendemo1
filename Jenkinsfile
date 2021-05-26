@@ -16,7 +16,7 @@ pipeline {
                 bat "mvn clean install"
 		//bat "cd F:\my-app\src\main\java\com\mycompany\app"
 		    bat "javac App.java"
-		    bat "java App.java
+		    bat "java App.java"
             }
         }
     }
