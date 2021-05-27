@@ -12,8 +12,8 @@ pipeline {
         stage("Build") {
             steps {
 			echo 'this is minimal pipeline.'
-                bat "mvn -version"
-                bat "mvn clean install"
+                sh "mvn -version"
+                sh "mvn clean install"
 		//bat "cd F:\my-app\src\main\java\com\mycompany\app"
 		  // bat "java App"
             }
